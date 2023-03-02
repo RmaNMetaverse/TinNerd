@@ -1,0 +1,159 @@
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+h1 {
+  line-height: 1.5;
+  font-size: 3.3rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 22px;
+}
+
+.navbar {
+  padding-bottom: 0;
+}
+
+.navbar-brand {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.DownloadButton {
+  margin: 3% 3% 3% 0;
+}
+
+#TitleDescription {
+  position: relative;
+  top: 55px;
+}
+
+.TitleImage {
+  width: 50%;
+  transform: rotate(25deg);
+  position: relative;
+  top: 0px;
+  left: 26%;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.AppStore {
+  width: 25px;
+  height: 25px;
+}
+
+.feature-icon img {
+  width: 100px;
+  height: 100px;
+  filter: invert(1) sepia(100%) saturate(5000%) brightness(60%)
+    hue-rotate(276deg);
+}
+
+#testimonials {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ff648a;
+  color: #fff;
+  font-weight: bold;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff648a;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 10px;
+}
+
+.carousel-indicators {
+  margin-top: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+#titleTopContainer {
+  padding-bottom: 0;
+  height: 620px;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 993px) {
+  #TitleDescription {
+    text-align: center;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+
+  .TitleImage {
+    transform: rotate(0);
+    width: 30%;
+    top: 10%;
+    left: 87%;
+  }
+}
+
+#footer {
+  padding: 2% 5%;
+  text-align: center;
+  color: black;
+}
